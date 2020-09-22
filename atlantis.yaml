@@ -1,0 +1,6 @@
+workflows:
+  opapolicy:
+    plan:
+      steps:
+        - plan
+        - make policy-checks
