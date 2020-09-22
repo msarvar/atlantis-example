@@ -1,4 +1,8 @@
 version: 3
+projects:
+  - name: local-test
+    dir: .
+    workflow: opapolicy
 workflows:
   opapolicy:
     plan:
