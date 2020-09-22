@@ -4,4 +4,4 @@ workflows:
     plan:
       steps:
         - plan
-        - make policy-checks
+        - run: make policy-checks
